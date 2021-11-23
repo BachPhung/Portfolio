@@ -1,0 +1,46 @@
+.p{
+    width: 500px;
+    height:34vh;
+    margin: 20px 10px;
+    border: 2px solid black;
+    border-radius: 10px 0 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.p-browser{
+    height: 30px;
+    width: 100%;
+    background-color:lightgreen;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+}
+
+.p > a{
+    
+    background: black;
+}
+
+.p-circle{
+    width: 6px;
+    height:6px;
+    background: white;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.p-img{
+    width: 100%;
+    margin-top: 30px;
+    transition: all 10s ease;
+}
+.p:hover .p-img{
+    transform: translateY(-80%);
+}
+
+@media screen and (max-width:720px) {
+    .p{
+        height: 25vh;
+    }
+}

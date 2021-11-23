@@ -1,0 +1,70 @@
+.contact{
+   background: #18191a;
+   color: white;
+   height: 100vh;
+   position: relative;
+}
+
+.contact-wrapper{
+   padding: 50px;
+   display: flex;
+   width: 100%;
+}
+
+.contact-title{
+   font-size: 60px;
+}
+
+.contact-left{
+   flex: 1;
+}
+.contact-right{
+   padding-top: 20px;
+   flex: 1;
+}
+
+.contact-info-item{
+   display: flex;
+   padding:50px;
+}
+
+.contact-icon{
+   width: 40px;
+   height: 40px;
+}
+
+.contact-text{
+   margin-left: 20px;
+   font-size: 25px;
+}
+
+.form-title{
+   width: 400px;
+   text-align: center;
+   padding: 10px 0;
+}
+
+@media screen and (max-width:720px) {
+   .contact-wrapper{
+      flex-direction: column;
+   }
+   .contact-wrapper{
+      padding: 10px;
+   }
+   .contact-info-item{
+      padding: 20px 10px;
+   }
+   .contact-icon{
+      width: 20px;
+      height: 20px;
+   }
+   .contact-text{
+      font-size: 16px;
+   }
+   .form-title{
+      width: 100%;
+   }
+   .contact-title{
+      text-align: center;
+   }
+}
